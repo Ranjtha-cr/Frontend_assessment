@@ -1,0 +1,70 @@
+.button{
+  
+   height: 25%;
+   border:2px,solid,black;
+   width: 25%;
+ padding: 12px 20px;
+ margin: 20px 20px;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ background-color: rgb(253, 253, 253);
+ box-shadow: 3px 3px 3px 3px rgb(185, 184, 184);
+}
+
+.normal{
+  width: 100px;
+  height: 20px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow:1px 1px 1px 1px #b6c0b7;
+  display: block;
+}
+.pressed{
+  color: rgb(41, 170, 209);
+  margin: auto; 
+  border: 1px solid  rgb(41, 170, 209); 
+  background-color: white;
+  width: 100px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.disabled{
+  margin: auto;
+  width: 100px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+  
+    box-shadow:inset 1px 1px 1px 1px black;
+}
+.focused{
+  margin: auto;
+  width: 100px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow:inset 1px 1px 1px 1px rgb(231, 230, 230);
+
+}
+.focused:focus{
+  background-color: rgb(201, 201, 201);
+  outline: none;
+  box-shadow: 0 0 0 3px blue;
+}
+
+
+  
+
+

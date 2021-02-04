@@ -1,0 +1,17 @@
+.textbox{
+  font-family: 'Raleway', sans-serif;
+  height: 20%;
+  border:2px,solid,black;
+  width: 22%;
+padding: 12px 20px;
+margin: 20px 20px;
+display: flex;
+flex-direction: row;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: rgb(253, 253, 253);
+box-shadow: 3px 3px 3px 3px  rgb(185, 184, 184);
+position: fixed;
+
+}
